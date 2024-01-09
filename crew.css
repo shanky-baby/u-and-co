@@ -44,3 +44,22 @@ html{
     top: 100px;
     right: 500px;
 }
+
+.staffHeader{
+    text-align: left;
+    padding-top: 100px;
+    color: black;
+    padding-left: 250px;
+    display: inline-block;
+}
+
+.staffHeader h2{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.staffHeader p{
+    text-align: center;
+    font-size: 20px;
+}
