@@ -10,11 +10,67 @@ html{
 
 * {box-sizing:border-box}
 
+/* container */
+.responsive-two-columns {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+  width:100%;
+  padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-two-columns > * {
+      width:50%;
+  }
+}
+
+/* flex box column layout */
+.padded-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* boxes */
+.padded-boxes > * {
+  width: 100%;
+  background:#eee;
+  border-radius: .4rem;
+}
+
+/* headings */
+.padded-boxes .heading {
+  background:#f97171;
+  margin: 0;
+  padding: 1rem;
+  border-top-left-radius: .4rem;
+  border-top-right-radius: .4rem;
+}
+
+/* padded content */
+.padded-boxes .padded {
+  padding:.1rem 1rem;
+}
+
+.story {
+  display: inline;
+  padding-top: 120px;
+  padding-left: 50px;
+  text-align: center;
+}
+  
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
   margin: auto;
+  padding-top: 100px;
 }
 
 /* Hide the images by default */
@@ -28,7 +84,7 @@ html{
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: 800px;
+  margin-top: 350px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -58,15 +114,7 @@ html{
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-/* Number text (1/4 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  padding-top: 200px;
 }
 
 /* The dots/bullets/indicators */
@@ -75,7 +123,7 @@ html{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  margin-top: 800px;
+  margin-top: 10px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
