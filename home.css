@@ -1,0 +1,17 @@
+h1, p {
+  text-align: center;
+}
+
+.facebook-button {
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook-icon {
+    width: 25px;
+    height: 25px;
+    
+  }
