@@ -1,0 +1,39 @@
+body, h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+.contact {
+  background-color: rgba(216, 139, 119, 0.879);
+  height: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.visit {
+  background-color: beige;
+  height: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.facebook-button {
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook-icon {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  .bottom-logo {
+    background-color: blanchedalmond;
+    height: 10%;
+    display: grid;
+    place-items: center;
+  }
