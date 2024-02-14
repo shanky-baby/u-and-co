@@ -1,5 +1,20 @@
-h1, p {
+body, h1, p {
   text-align: center;
+  margin: 0;
+}
+
+.contact {
+  background-color: rgba(216, 139, 119, 0.879);
+  height: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.visit {
+  background-color: beige;
+  height: 20%;
+  display: grid;
+  place-items: center;
 }
 
 .facebook-button {
@@ -14,4 +29,11 @@ h1, p {
     width: 25px;
     height: 25px;
     
+  }
+
+  .bottom-logo {
+    background-color: blanchedalmond;
+    height: 10%;
+    display: grid;
+    place-items: center;
   }
