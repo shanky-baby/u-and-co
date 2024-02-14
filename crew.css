@@ -1,76 +1,68 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html{
     background: rgba(218, 160, 109, 0.7);
 }
 
-* {box-sizing:border-box}
-
-/* container */
-.responsive-two-columns {
-  display:flex;
-  flex-wrap:wrap;
+.container {
+  display: flex;
 }
 
-/* columns */
-.responsive-two-columns > * {
-  width:100%;
-  padding:1rem;
+.col1 {
+  flex: 1;
+  height: 300px;
 }
 
-/* tablet breakpoint */
-@media (min-width:768px) {
-  .responsive-two-columns > * {
-      width:50%;
+.col2 {
+  flex: 1;
+  height: 300px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
   }
 }
 
-/* flex box column layout */
-.padded-boxes {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-/* boxes */
-.padded-boxes > * {
-  width: 100%;
-  background:#eee;
-  border-radius: .4rem;
-}
-
-/* headings */
-.padded-boxes .heading {
-  background:#f97171;
-  margin: 0;
-  padding: 1rem;
-  border-top-left-radius: .4rem;
-  border-top-right-radius: .4rem;
-}
-
-/* padded content */
-.padded-boxes .padded {
-  padding:.1rem 1rem;
-}
-
-.story {
+/* .story {
   display: inline;
   padding-top: 120px;
   padding-left: 50px;
   text-align: center;
-}
+} */
   
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
-  position: relative;
-  margin: auto;
-  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-image: url(../images/Riley.jpg) repeat;
+  background-image: url(../images/Leon.jpg) repeat;
+  background-image: url(../images/Nina.jpg) repeat;
+  background-image: url(../images/Sam.jpg) repeat;
+}
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 50%;
+  min-width: 200px;
+}
+
+.col-lg-6.box {
+  padding: 15px;
+}
+
+.image-holder {
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
 }
 
 /* Hide the images by default */
