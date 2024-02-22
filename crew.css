@@ -5,7 +5,7 @@
 .slider-wrapper {
 	position: relative;
 	max-width: 60rem;
-	margin: 0 auto;
+  display: inline-block;
 }
 
 .slider {
@@ -50,4 +50,29 @@
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+/* Story Blurb */
+.story {
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.story > h1 {
+  font-weight: bold;
+  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 78px;
+}
+
+.story > p {
+  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.story > h2 {
+  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 40px;
 }
