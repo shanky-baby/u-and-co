@@ -28,7 +28,6 @@ body, h1, p {
   .facebook-icon {
     width: 25px;
     height: 25px;
-    
   }
 
   .bottom-logo {
@@ -36,4 +35,20 @@ body, h1, p {
     height: 10%;
     display: grid;
     place-items: center;
+  }
+
+  /* Home background image */
+  .background-img{
+    background-image: url("./images/homeBackground.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h3 {
+    font-size: 120px;
+    color: black;
+    font-weight: bold;
   }
