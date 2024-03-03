@@ -3,6 +3,20 @@ body, h1, p {
   margin: 0;
 }
 
+.menu-button {
+  border: 5px solid white;
+  padding: 8px 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  text-decoration: none; /* Button background color */
+  color: #ffffff; /* Button text color */
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; /* Font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+
+}
+
 .contact {
   background-color: rgba(216, 139, 119, 0.879);
   height: 20%;
@@ -18,40 +32,40 @@ body, h1, p {
 }
 
 .facebook-button {
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .facebook-icon {
-    width: 25px;
-    height: 25px;
-  }
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .bottom-logo {
-    background-color: blanchedalmond;
-    height: 10%;
-    display: grid;
-    place-items: center;
-  }
+.facebook-icon {
+  width: 25px;
+  height: 25px;
+}
 
-  /* Home background image */
-  .background-img{
-    background-image: url("./images/homeBackground.jpg");
-    min-height: 950px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -100px;
-  }
+.bottom-logo {
+  background-color: blanchedalmond;
+  height: 10%;
+  display: grid;
+  place-items: center;
+}
 
-  .home-header > h3 {
-    font-size: 120px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 250px;
-  }
+/* Home background image */
+.background-img{
+  background-image: url("./images/homeBackground.jpg");
+  min-height: 950px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -150px;
+}
+
+.home-header > h3 {
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 250px;
+}
