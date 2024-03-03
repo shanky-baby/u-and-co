@@ -4,8 +4,9 @@
 
 .slider-wrapper {
 	position: relative;
-	max-width: 60rem;
+	max-width: 56rem;
   display: inline-block;
+  padding-right: 150px;
 }
 
 .slider {
