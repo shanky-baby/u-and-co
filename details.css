@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.contact-container {
+    flex: auto;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.contact-container h3 {
+    color: white;
+}
+
+.contact-container a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-container a:hover{
+    color: black;
+}
+
+.socials{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.socials li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.socials li a{
+    color: white;
+    font-size: 2em;
+}
+
+.socials li a:hover{
+    color: black;
+}
+
+.visit-container {
+    flex: auto;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.visit-container h3 {
+    color: white;
+}
+
+.visit-container p {
+    color: white;
+}
+
+.horizontal-line {
+    border: 1px solid white;
+    width: 200px;
+}
