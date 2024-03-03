@@ -1,11 +1,12 @@
 /* Add a black background color to the top navigation */
 .nav {
-  background-color: #d48989;
-  opacity: 80%;
+  /* background-color: #d48989;
+  opacity: 80%; */
   width: 100%;
   position: absolute;
   right: 0px;
   top: 0px;
+  padding: 10px;
   display: flex;
   justify-content:center;
 }
@@ -13,9 +14,10 @@
 
 /* Style the links inside the navigation bar */
 .nav a {
+  opacity: 100%;
   float: left;
-  color: #f2f2f2;
-  /* text-transform: uppercase; */
+  color: #2d2929;
+  text-transform: uppercase;
   /* font-family:'Courier New', Courier, monospace; */
   font-weight: bold;
   text-align: center;
@@ -27,13 +29,13 @@
 
 /* Change the color of links on hover */
 .nav a:hover {
-  text-decoration: underline;
+  color: #917676;
   /* background-color: #eca0a0; */
 }
 
 /* Add an active class to highlight the current page */
 .nav a.active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: white;
 }
 
