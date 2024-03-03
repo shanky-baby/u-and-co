@@ -40,15 +40,18 @@ body, h1, p {
   /* Home background image */
   .background-img{
     background-image: url("./images/homeBackground.jpg");
-    min-height: 800px;
+    min-height: 950px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -100px;
   }
 
-  h3 {
+  .home-header > h3 {
     font-size: 120px;
-    color: black;
+    color: white;
     font-weight: bold;
+    text-align: center;
+    padding-top: 250px;
   }
