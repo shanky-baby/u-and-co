@@ -3,6 +3,10 @@ body, h1, p {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .menu-button {
   border: 5px solid white;
   padding: 8px 40px;
