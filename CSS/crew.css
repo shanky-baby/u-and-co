@@ -4,14 +4,12 @@
 
 .slider-wrapper {
 	position: relative;
-	max-width: 56rem;
-  display: inline-block;
-  padding-right: 150px;
+  flex-basis: 50%;
 }
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    max-height: 600px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -28,6 +26,8 @@
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+    object-position: 30%;
+    max-width: 100%;
 }
 
 .slider-nav {
@@ -56,10 +56,18 @@
 /* Story Blurb */
 .story {
   position: relative;
-  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
   text-align: center;
-  margin-right: 100px;
-  margin-top: 150px;
+  padding: 0 16px;
+}
+
+.flex-container {
+  display: flex ;
+  flex-direction: row-reverse;
 }
 
 .story > h1 {
@@ -76,4 +84,10 @@
 .story > h2 {
   Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
   font-size: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
