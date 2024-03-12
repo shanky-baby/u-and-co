@@ -1,0 +1,14 @@
+.footer {
+    background-color: black;
+    height: 60px;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 100px;
+    color: white;
+    text-decoration: overline;
+    padding: 22px
+}
