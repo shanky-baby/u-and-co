@@ -75,17 +75,17 @@
 
 .story > h1 {
   font-weight: bold;
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  Font-family: 'Hammersmith One';
   font-size: 78px;
 }
 
 .story > p {
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  Font-family: 'Hammersmith One';
   font-size: 20px;
 }
 
 .story > h2 {
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  Font-family: 'Hammersmith One';
   font-size: 40px;
 }
 
