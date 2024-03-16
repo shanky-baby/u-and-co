@@ -59,7 +59,26 @@ body, h1, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -150px;
+  position: relative;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.background-img::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.8;
+  background: rgb(0,0,0);
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 21%, rgba(0,0,0,0) 100%);
 }
 
 .home-header > h3 {
@@ -67,5 +86,12 @@ body, h1, p {
   color: white;
   font-weight: bold;
   text-align: center;
-  padding-top: 250px;
+  position: relative;
+  justify-content: center;
+}
+
+.header-container {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 20px;
 }
