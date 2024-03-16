@@ -1,6 +1,7 @@
 body, h1, p {
   text-align: center;
   margin: 0;
+  font-family: 'Poppins';
 }
 
 .menu-button {
@@ -14,6 +15,7 @@ body, h1, p {
   font-weight: bold;
   text-align: center; /* Font size */
   cursor: pointer; /* Add pointer cursor on hover */
+  font-family: 'Poppins';
 
 }
 
@@ -90,6 +92,7 @@ body, h1, p {
   text-align: center;
   position: relative;
   justify-content: center;
+  font-family: 'Poppins';
 }
 
 .header-container {
