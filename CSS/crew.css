@@ -75,18 +75,13 @@
 
 .story > h1 {
   font-weight: bold;
-  Font-family: 'Hammersmith One';
+  Font-family: 'Poppins';
   font-size: 78px;
 }
 
 .story > p {
-  Font-family: 'Hammersmith One';
+  Font-family: 'Poppins';
   font-size: 20px;
-}
-
-.story > h2 {
-  Font-family: 'Hammersmith One';
-  font-size: 40px;
 }
 
 @media only screen and (max-width: 1024px) {
