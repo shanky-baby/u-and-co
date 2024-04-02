@@ -1,17 +1,17 @@
 .container {
-	padding: 2rem;
+  padding: 1.25rem;
 }
 
 .slider-wrapper {
 	position: relative;
-	max-width: 56rem;
+	flex-basis: 50%;
+  width: 50%;
   display: inline-block;
-  padding-right: 150px;
 }
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    max-height: 600px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -28,13 +28,15 @@
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+    object-position: 30%;
+    max-width: 100%;
 }
 
 .slider-nav {
     display: flex;
     column-gap: 1rem;
     position: absolute;
-    bottom: 1.25rem;
+    bottom: 1rem;
     left: 50%;
     transform: translate(-50%);
     z-index: 1;
@@ -56,24 +58,34 @@
 /* Story Blurb */
 .story {
   position: relative;
-  float: right;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  margin-right: 100px;
-  margin-top: 150px;
+  flex-basis: 50%;
+  padding: 0 16px;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  text-align: center;
 }
 
 .story > h1 {
   font-weight: bold;
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  Font-family: 'Poppins';
   font-size: 78px;
 }
 
 .story > p {
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  Font-family: 'Poppins';
   font-size: 20px;
 }
 
-.story > h2 {
-  Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-  font-size: 40px;
+@media only screen and (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }

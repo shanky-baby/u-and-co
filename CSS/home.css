@@ -1,6 +1,7 @@
 body, h1, p {
   text-align: center;
   margin: 0;
+  font-family: 'Poppins';
 }
 
 html {
@@ -18,6 +19,7 @@ html {
   font-weight: bold;
   text-align: center; /* Font size */
   cursor: pointer; /* Add pointer cursor on hover */
+  font-family: 'Poppins';
 
 }
 
@@ -58,18 +60,47 @@ html {
 /* Home background image */
 .background-img{
   background-image: url("../images/homeBackground.jpg");
-  min-height: 950px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -150px;
+  position: relative;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.background-img::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.8;
+  background: rgb(0,0,0);
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 21%, rgba(0,0,0,0) 100%);
 }
 
 .home-header > h3 {
+  z-index: 5;
+  margin: 0;
+  margin-bottom: 26px;
   font-size: 120px;
   color: white;
   font-weight: bold;
   text-align: center;
-  padding-top: 250px;
+  position: relative;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+
+.header-container {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 20px;
 }
