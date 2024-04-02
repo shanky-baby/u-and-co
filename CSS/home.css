@@ -72,16 +72,20 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+slideshow-working
   z-index: 1;
 
   position: relative;
   height: 100%;
-
+ main
 
   display: flex;
   justify-content: center;
   align-items: center;
+ slideshow-working
+
   z-index: 1;
+main
 }
 
 .background-img::after {
@@ -98,16 +102,19 @@ html {
 }
 
 .home-header > h3 {
+slideshow-working
   position: relative;
   z-index: 5;
 
   z-index: 5;
   margin: 0;
   margin-bottom: 26px;
+main
   font-size: 120px;
   color: white;
   font-weight: bold;
   text-align: center;
+slideshow-working
   margin: 0;
   margin-bottom: 26px;
 
@@ -120,4 +127,5 @@ html {
   box-sizing: border-box;
   height: 100vh;
   padding: 20px;
+main
 }
