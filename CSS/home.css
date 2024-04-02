@@ -4,10 +4,6 @@ body, h1, p {
   font-family: 'Poppins';
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .menu-button {
   border: 5px solid white;
   padding: 8px 40px;
@@ -57,26 +53,15 @@ html {
   place-items: center;
 }
 
-.header-container {
-  box-sizing: border-box;
-  padding: 20px;
-  height: 100vh;
-}
-
 /* Home background image */
-.background-img {
-  position: relative;
-  height: 100%;
+.background-img{
   background-image: url("../images/homeBackground.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
-
   position: relative;
   height: 100%;
-
 
   display: flex;
   justify-content: center;
@@ -98,9 +83,6 @@ html {
 }
 
 .home-header > h3 {
-  position: relative;
-  z-index: 5;
-
   z-index: 5;
   margin: 0;
   margin-bottom: 26px;
@@ -108,9 +90,6 @@ html {
   color: white;
   font-weight: bold;
   text-align: center;
-  margin: 0;
-  margin-bottom: 26px;
-
   position: relative;
   justify-content: center;
   font-family: 'Poppins';
