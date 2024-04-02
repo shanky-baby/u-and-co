@@ -60,25 +60,13 @@ body, h1, p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   position: relative;
   height: 100%;
-=======
-slideshow-working
-  z-index: 1;
-
-  position: relative;
-  height: 100%;
- main
->>>>>>> 83e2eeb548151ce7b2df911c319c40098f83657d
 
   display: flex;
   justify-content: center;
   align-items: center;
- slideshow-working
-
   z-index: 1;
-main
 }
 
 .background-img::after {
@@ -95,28 +83,13 @@ main
 }
 
 .home-header > h3 {
-<<<<<<< HEAD
-=======
-slideshow-working
-  position: relative;
-  z-index: 5;
-
->>>>>>> 83e2eeb548151ce7b2df911c319c40098f83657d
   z-index: 5;
   margin: 0;
   margin-bottom: 26px;
-main
   font-size: 120px;
   color: white;
   font-weight: bold;
   text-align: center;
-<<<<<<< HEAD
-=======
-slideshow-working
-  margin: 0;
-  margin-bottom: 26px;
-
->>>>>>> 83e2eeb548151ce7b2df911c319c40098f83657d
   position: relative;
   justify-content: center;
   font-family: 'Poppins';
@@ -126,5 +99,4 @@ slideshow-working
   box-sizing: border-box;
   height: 100vh;
   padding: 20px;
-main
 }
