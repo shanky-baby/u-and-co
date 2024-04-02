@@ -1,5 +1,6 @@
 <htm lang="en"> 
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>U&CO by ShawShank Dev</title> 
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/home.css">
@@ -22,6 +23,24 @@
           <a href="#contact">Contact Us</a>
         </div>
 
+JS-features
+    <div class="nav">
+      <a href="#home" onclick="scrollToSection('home')" class="active">Home</a>
+      <a href="#story" onclick="scrollToSection('story')">Story</a>
+      <a href="#contact" onclick="scrollToSection('contact')">Contact Us</a>
+    </div>
+
+    <!-- Home section with cool background pic -->
+    <section id="home" class="background-img">
+      <div class="home-header">
+        <h3>U&CO</h3>
+        <button href="images/U&CO-menus.pdf" target="_blank" id="menu" class="menu-button" >Menu</button>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story" class="container">
+
         <div class="home-header">
           <h3>U&CO</h3>
             <a href="images/U&CO-menus.pdf" target="_blank" class="menu-button">Menu</a>
@@ -31,12 +50,14 @@
     </div>
 
     <section id="story" class="container flex-container">
+main
       <div class="story">
 				<h1>Canberra's Finest</h1>
 				<p>I don't want to be famous. </br> I like to be able to sit in a cafe 
 					and watch the world go by, </br> and observe people. </br></p>
 			</div>
 
+      <!-- Carousel Section -->
       <div class="slider-wrapper">
         <div class="slider">
           <img id="slide-1" src="https://images.unsplash.com/photo-1595475038784-bbe439ff41e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -85,6 +106,7 @@
   
   <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+  <script src="JS/home.js"></script>
     
   </body>
 </html>
