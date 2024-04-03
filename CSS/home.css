@@ -23,13 +23,6 @@ html {
 
 }
 
-.contact {
-  background-color: rgba(216, 139, 119, 0.879);
-  height: 20%;
-  display: grid;
-  place-items: center;
-}
-
 .visit {
   background-color: beige;
   height: 20%;

@@ -3,12 +3,16 @@ body {
     padding: 0px;
 }
 
+/*  main container */
 .details-container {
+    height: 50%;
     display: flex;
     justify-content: space-between;
     background-color: darkgray;
+    align-items: center;
 }
 
+/* sub container 1 */
 .contact-container {
     flex: auto;
     text-align: center;
@@ -50,6 +54,7 @@ body {
     color: black;
 }
 
+/* sub container 2 */
 .visit-container {
     flex: auto;
     text-align: center;
