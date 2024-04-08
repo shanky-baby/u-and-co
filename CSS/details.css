@@ -3,10 +3,70 @@ body {
     padding: 0px;
 }
 
-.details-container {
+.location-container {
     display: flex;
-    justify-content: space-between;
-    background-color: darkgray;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #D3D3D3;
+    height: 10%;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.location-header h3 {
+    font-size: 48px;
+}
+
+
+.kaleen-content {
+    background-color: #D3D3D3;
+    height: 40%;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.kaleen-content h4 {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.kaleen-content p {
+    font-size: 18px;
+}
+
+.amaroo-content {
+    background-color: #D3D3D3;
+    height: 40%;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.amaroo-content h4 {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.amaroo-content p {
+    font-size: 18px;
 }
 
 .contact-container {
