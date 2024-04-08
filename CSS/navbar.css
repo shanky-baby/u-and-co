@@ -16,20 +16,20 @@
 .nav a {
   opacity: 100%;
   float: left;
-  color: #2d2929;
+  color: #8d8080;
   text-transform: uppercase;
   /* font-family:'Courier New', Courier, monospace; */
   font-weight: bold;
   text-align: center;
   padding: 14px 14px;
-  font-size: 25px;
+  font-size: 17px;
   text-decoration: none;
 }
 
 
 /* Change the color of links on hover */
 .nav a:hover {
-  color: #917676;
+  color: #ffffff;
   /* background-color: #eca0a0; */
 }
 
