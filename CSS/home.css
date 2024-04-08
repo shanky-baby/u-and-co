@@ -8,14 +8,15 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .menu-button {
-  border: 5px solid white;
-  padding: 8px 40px;
+  /* border: 5px solid white; */
   border-radius: 5px;
+  position: relative;
   background-color: transparent;
   text-decoration: none; /* Button background color */
   color: #ffffff; /* Button text color */
-  font-size: 50px;
+  font-size: 2em;
   font-weight: bold;
   text-align: center; /* Font size */
   cursor: pointer; /* Add pointer cursor on hover */
@@ -83,7 +84,7 @@ html {
   z-index: 5;
   margin: 0;
   margin-bottom: 26px;
-  font-size: 120px;
+  font-size: 13em;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -95,5 +96,5 @@ html {
 .header-container {
   box-sizing: border-box;
   height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
 }
